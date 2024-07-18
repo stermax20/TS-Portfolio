@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Info</title>
+    <link rel="stylesheet" href="./CSS/porfolInfo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+    <script defer src="./TS/profolInfo.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Main project</h1>
+            <a href="./index.html" class="btn">홈으로</a>
+        </header>
+        <main>
+            <section class="intro">
+                <h2>개요</h2>
+                <p>Front End와 Back End를 이용한 프로젝트를 소개하는 페이지 입니다.</p>
+            </section>
+            <section class="projects">
+                <h2>Projects</h2>
+                <br> <br> <br>
+                <div class="project-images">
+                    <img src="../assets/img/Moving/로그인.png" alt="Moving Login" class="project-img">
+                    <img src="../assets/img/Moving/CGV 크롤링.png" alt="Moving Crawling" class="project-img">
+                    <img src="../assets/img/Moving/게시물 List.png" alt="Moving Board" class="project-img">
+                </div>
+                <div class="project-ex">
+                    <p>팀 명: No.js</p>
+                    <p>주제: 영화 추천 기반 조회사이트</p>
+                    <p>아이디어 내용: 회원가입 후 로그인을 하면 영화 정보를 크롤링하여 인기 순으로 표시하고, <br>
+                        영화 감상평을 적을 수 있는 게시판에 게시글을 불러오고 생성, 수정, 삭제 할 수 있다.
+                    </p>
+                    <p>대표 기능: 회원가입, 로그인 기능, 영화 인기 순 조회 기능, 영화 감상평 게시판기능.</p>
+                </div>
+                <br> <br> <br>
+                <div class="project-images">
+                    <img src="../assets/img/Memorion/회원가입.png" alt="Memorion Signup" class="project-img">
+                    <img src="../assets/img/Memorion/로그인.png" alt="Memorion Signin" class="project-img">
+                    <img src="../assets/img/Memorion/메모 목록.png" alt="Memorion Read" class="project-img">
+                    <img src="../assets/img/Memorion/메모 생성.png" alt="Memorion Create" class="project-img">
+                    <img src="../assets/img/Memorion/메모 수정.png" alt="Memorion Update" class="project-img">
+                    <img src="../assets/img/Memorion/메모 삭제 확인.png" alt="Memorion Delete" class="project-img">
+                </div>
+                <div class="project-ex">
+                    <p>팀 명: Kim-Gu-hyeon-Family</p>
+                    <p>주제: 이미지를 올릴 수 있는 온라인 메모장</p>
+                    <p>아이디어 내용: 회원가입 후 로그인을 하면 메모 목록 페이지가 나오고 <br>
+                        이미지와 메모를 같이 업로드 하여 일상을 기록하는 웹 기반 사이트를 만들고자 하여 만들었다.
+                    </p>
+                    <p>대표 기능: 이미지 업로드, 메모 생성, 메모 읽기, 메모 수정, 메모 삭제기능.</p>
+                </div>
+                <br> <br> <br>
+                <div class="project-images">
+                    <img src="../assets/img/Codi-Assistant/회원가입.png" alt="Codi Signup" class="project-img">
+                    <img src="../assets/img/Codi-Assistant/로그인.png" alt="Codi Login" class="project-img">
+                    <img src="../assets/img/Codi-Assistant/채팅 제목 생성.png" alt="Chating Create" class="project-img">
+                    <img src="../assets/img/Codi-Assistant/코디 추천 결과.png" alt="Codi Recommend" class="project-img">
+                </div>
+                <div class="project-ex">
+                    <p>팀 명: ksw-and-friends</p>
+                    <p>프로젝트명: Codi-Assistant</p>
+                    <p>아이디어 내용: Codi-Assistant는 gpt-3.5-turbo 모델을 이용하여 입력된 옷과 어울리는 색깔의 상의, 바지,
+                        모자, 신발을 추천한다.
+                        추천된 각 아이템의 네이버 쇼핑 링크를 포함한 상품명을 순서대로 제공한다.
+                    </p>
+                    <p>대표 기능: 회원가입, 로그인 기능, History 기능, 코디 추천 기능.</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Minseok-Kim. All rights reserved.</p>
+        </footer>
+    </div>
+    <div id="imgModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="imgModalContent">
+        </div>
+    </div>
+</body>
+
+</html>
